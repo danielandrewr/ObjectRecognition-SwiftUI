@@ -12,6 +12,9 @@
 		2661463F289FBE3A0045C9DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2661463E289FBE3A0045C9DB /* Assets.xcassets */; };
 		26614642289FBE3A0045C9DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26614641289FBE3A0045C9DB /* Preview Assets.xcassets */; };
 		2661464C289FBE690045C9DB /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2661464B289FBE690045C9DB /* Camera.swift */; };
+		26614650289FBFB20045C9DB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2661464F289FBFB20045C9DB /* CameraView.swift */; };
+		26614653289FBFD90045C9DB /* CameraInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26614652289FBFD90045C9DB /* CameraInterface.swift */; };
+		26614655289FC0E70045C9DB /* FrameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26614654289FC0E70045C9DB /* FrameHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		2661463E289FBE3A0045C9DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26614641289FBE3A0045C9DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2661464B289FBE690045C9DB /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		2661464F289FBFB20045C9DB /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		26614652289FBFD90045C9DB /* CameraInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraInterface.swift; sourceTree = "<group>"; };
+		26614654289FC0E70045C9DB /* FrameHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 		26614639289FBE370045C9DB /* ObjectRecognition-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				26614651289FBFC40045C9DB /* ViewComponent */,
 				2661464A289FBE590045C9DB /* Helper */,
 				26614649289FBE4D0045C9DB /* View */,
 				26614648289FBE480045C9DB /* Model */,
@@ -83,6 +90,7 @@
 		26614649289FBE4D0045C9DB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2661464F289FBFB20045C9DB /* CameraView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -90,8 +98,17 @@
 		2661464A289FBE590045C9DB /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				26614654289FC0E70045C9DB /* FrameHelper.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		26614651289FBFC40045C9DB /* ViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				26614652289FBFD90045C9DB /* CameraInterface.swift */,
+			);
+			path = ViewComponent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,8 +182,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2661463D289FBE370045C9DB /* ContentView.swift in Sources */,
+				26614653289FBFD90045C9DB /* CameraInterface.swift in Sources */,
 				2661464C289FBE690045C9DB /* Camera.swift in Sources */,
 				2661463B289FBE370045C9DB /* ObjectRecognition_SwiftUIApp.swift in Sources */,
+				26614650289FBFB20045C9DB /* CameraView.swift in Sources */,
+				26614655289FC0E70045C9DB /* FrameHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
