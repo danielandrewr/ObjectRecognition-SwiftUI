@@ -21,6 +21,7 @@ struct CameraView: View {
                         
                     } label: {
                         CameraInterface()
+                            .centerHelper()
                     }
                 }
             }

@@ -15,6 +15,7 @@
 		26614650289FBFB20045C9DB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2661464F289FBFB20045C9DB /* CameraView.swift */; };
 		26614653289FBFD90045C9DB /* CameraInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26614652289FBFD90045C9DB /* CameraInterface.swift */; };
 		26614655289FC0E70045C9DB /* FrameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26614654289FC0E70045C9DB /* FrameHelper.swift */; };
+		26614658289FC37E0045C9DB /* AVManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26614657289FC37E0045C9DB /* AVManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		2661464F289FBFB20045C9DB /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		26614652289FBFD90045C9DB /* CameraInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraInterface.swift; sourceTree = "<group>"; };
 		26614654289FC0E70045C9DB /* FrameHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameHelper.swift; sourceTree = "<group>"; };
+		26614657289FC37E0045C9DB /* AVManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		26614639289FBE370045C9DB /* ObjectRecognition-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				26614656289FC3670045C9DB /* Manager */,
 				26614651289FBFC40045C9DB /* ViewComponent */,
 				2661464A289FBE590045C9DB /* Helper */,
 				26614649289FBE4D0045C9DB /* View */,
@@ -109,6 +112,14 @@
 				26614652289FBFD90045C9DB /* CameraInterface.swift */,
 			);
 			path = ViewComponent;
+			sourceTree = "<group>";
+		};
+		26614656289FC3670045C9DB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				26614657289FC37E0045C9DB /* AVManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +198,7 @@
 				2661463B289FBE370045C9DB /* ObjectRecognition_SwiftUIApp.swift in Sources */,
 				26614650289FBFB20045C9DB /* CameraView.swift in Sources */,
 				26614655289FC0E70045C9DB /* FrameHelper.swift in Sources */,
+				26614658289FC37E0045C9DB /* AVManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
